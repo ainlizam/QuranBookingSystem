@@ -41,7 +41,7 @@ Bootstrap 5 HTML CSS Template
                 <nav class="navbar navbar-expand-lg">
                     <div class="container">
                         <a class="navbar-brand d-flex align-items-center" href="index.html">
-                            <img src="images/coffee-beans.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
+                            <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
                             i-Iqra'
                         </a>
 
@@ -60,7 +60,7 @@ Bootstrap 5 HTML CSS Template
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_3">Our Menu</a>
+                                    <a class="nav-link click-scroll" href="#section_3">Classes</a>
                                 </li>
 
                                 <li class="nav-item">
@@ -106,7 +106,7 @@ Bootstrap 5 HTML CSS Template
 
                             <div class="ms-lg-3">
                                 <a class="btn custom-btn custom-border-btn" href="{{ route('frontend.bview') }}">
-                                    Booking Now
+                                    Book Now
                                     <i class="bi-arrow-up-right ms-2"></i>
                                 </a>
                             </div>
@@ -133,7 +133,7 @@ Bootstrap 5 HTML CSS Template
                                     Our Story
                                 </a>
 
-                                <a class="btn custom-btn smoothscroll me-2 mb-2" href="#section_3"><strong>Check Menu</strong></a>
+                                <a class="btn custom-btn smoothscroll me-2 mb-2" href="#section_3"><strong>See Classes Offered</strong></a>
                             </div>
 
                         </div>
@@ -188,25 +188,25 @@ Bootstrap 5 HTML CSS Template
                         <div class="row justify-content-center">
 
                             <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
-                                <em class="text-white">Creative Baristas</em>
+                                <em class="text-white">Get to Know Our Team</em>
 
-                                <h2 class="text-white">Meet People</h2>
+                                <h2 class="text-white">Meet Our Asatizah</h2>
                             </div>
 
                             <div class="col-lg-3 col-md-6 col-12 mb-4">
                                 <div class="team-block-wrap">
                                     <div class="team-block-info d-flex flex-column">
                                         <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Steve</h4>
+                                            <h4 class="text-white mb-0">Ustaz Sa'id</h4>
 
-                                            <p class="badge ms-4"><em>Boss</em></p>
+                                            <p class="badge ms-4"><em>Founder</em></p>
                                         </div>
 
-                                        <p class="text-white mb-0">your favourite coffee daily lives tempor.</p>
+                                        <p class="text-white mb-0">5 years of experience as Arabic Language teacher.</p>
                                     </div>
 
                                     <div class="team-block-image-wrap">
-                                        <img src="images/team/portrait-elegant-old-man-wearing-suit.jpg" class="team-block-image img-fluid" alt="">
+                                        <img src="images/team/ustzsa'id.png" class="team-block-image img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -215,16 +215,16 @@ Bootstrap 5 HTML CSS Template
                                 <div class="team-block-wrap">
                                     <div class="team-block-info d-flex flex-column">
                                         <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Sandra</h4>
+                                            <h4 class="text-white mb-0">Ustazah Hanum</h4>
 
-                                            <p class="badge ms-4"><em>Manager</em></p>
+                                            <p class="badge ms-4"><em>Tutor</em></p>
                                         </div>
 
-                                        <p class="text-white mb-0">your favourite coffee daily lives.</p>
+                                        <p class="text-white mb-0">Currently as a lecturer at IIUM in Usul Fiqh for 6 years.</p>
                                     </div>
 
                                     <div class="team-block-image-wrap">
-                                        <img src="images/team/cute-korean-barista-girl-pouring-coffee-prepare-filter-batch-brew-pour-working-cafe.jpg" class="team-block-image img-fluid" alt="">
+                                        <img src="images/team/ustzhhanum.png" class="team-block-image img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -233,16 +233,16 @@ Bootstrap 5 HTML CSS Template
                                 <div class="team-block-wrap">
                                     <div class="team-block-info d-flex flex-column">
                                         <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Jackson</h4>
+                                            <h4 class="text-white mb-0">Ustaz Zaid Muhammad</h4>
 
-                                            <p class="badge ms-4"><em>Senior</em></p>
+                                            <p class="badge ms-4"><em>Tutor</em></p>
                                         </div>
 
-                                        <p class="text-white mb-0">your favourite coffee daily lives.</p>
+                                        <p class="text-white mb-0">5 years experience of teaching Islamic Studies and Arabic.</p>
                                     </div>
 
                                     <div class="team-block-image-wrap">
-                                        <img src="images/team/small-business-owner-drinking-coffee.jpg" class="team-block-image img-fluid" alt="">
+                                        <img src="images/team/ustzzaid.png" class="team-block-image img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -251,16 +251,16 @@ Bootstrap 5 HTML CSS Template
                                 <div class="team-block-wrap">
                                     <div class="team-block-info d-flex flex-column">
                                         <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Michelle</h4>
+                                            <h4 class="text-white mb-0">Ustazah Ain Lily</h4>
 
-                                            <p class="badge ms-4"><em>Barista</em></p>
+                                            <p class="badge ms-4"><em>Tutor</em></p>
                                         </div>
 
-                                        <p class="text-white mb-0">your favourite coffee daily consectetur.</p>
+                                        <p class="text-white mb-0">Currently a lecturer at IIUM in Qur'an Sunnah for 4 years.</p>
                                     </div>
 
                                     <div class="team-block-image-wrap">
-                                        <img src="images/team/smiley-business-woman-working-cashier.jpg" class="team-block-image img-fluid" alt="">
+                                        <img src="images/team/ustzhlily.png" class="team-block-image img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
