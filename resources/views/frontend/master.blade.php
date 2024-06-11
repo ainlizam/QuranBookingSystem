@@ -9,6 +9,8 @@
 
         <title>Quran Booking System</title>
 
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -36,72 +38,61 @@ Bootstrap 5 HTML CSS Template
     </head>
 
     <body>
+        <main>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
+                        i-Iqra'
+                    </a>
 
-            <main>
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container">
-                        <a class="navbar-brand d-flex align-items-center" href="index.html">
-                            <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
-                            i-Iqra'
-                        </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            </li>
 
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ms-lg-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_1">Home</a>
-                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">About</a>
+                            </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_2">About</a>
-                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">Classes</a>
+                            </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_3">Classes</a>
-                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">Reviews</a>
+                            </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_4">Reviews</a>
-                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                            </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_5">Contact</a>
-                                </li>
+                            <li class="nav-item">
+                                @if (Route::has('student.login'))
+                                    <nav class="nav-item">
+                                        @auth
+                                            <a href="{{ url('/dashboard') }}" class="nav-link">
+                                                Dashboard
+                                            </a>
+                                        @else
+                                            <a href="{{ route('student.login') }}" class="nav-link">
+                                                Log in
+                                            </a>
 
-                                <li class="nav-item">
-                                    @if (Route::has('login'))
-                                        <nav class="nav-item">
-                                            @auth
-                                                <a
-                                                    href="{{ url('/dashboard') }}"
-                                                    class="nav-link"
-                                                >
-                                                    Dashboard
+                                            @if (Route::has('student.register'))
+                                                <a href="{{ route('student.register') }}" class="nav-link">
+                                                    Register
                                                 </a>
-                                            @else
-                                                <a
-                                                    href="{{ route('login') }}"
-                                                    class="nav-link"
-                                                >
-                                                    Log in
-                                                </a>
-
-                                                @if (Route::has('register'))
-                                                    <a
-                                                        href="{{ route('register') }}"
-                                                        class="nav-link"
-                                                    >
-                                                        Register
-                                                    </a>
-                                                @endif
-                                            @endauth
-                                        </nav>
-                                    @endif
-
-                                </li>
+                                            @endif
+                                        @endauth
+                                    </nav>
+                                @endif
+                            </li>
                             </ul>
 
                             <div class="ms-lg-3">
