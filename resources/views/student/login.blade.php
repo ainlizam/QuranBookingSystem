@@ -15,7 +15,7 @@
 </head>
 <body class="flex items-center justify-center min-h-screen">
     <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
-        <h1 class="text-2xl font-bold mb-6 text-center text-brown-700">Student Login</h1>
+        <h1 class="text-2xl font-bold mb-6 text-center text-red-700">Student Login</h1>
         <form action="{{ route('student.login') }}" method="POST">
             @csrf
             <div class="mb-4">
@@ -26,8 +26,12 @@
                 <label for="password" class="block text-gray-700">Password:</label>
                 <input type="password" id="password" name="password" required class="w-full p-2 border border-gray-300 rounded">
             </div>
-            <button type="submit" class="w-full bg-brown-600 text-white p-2 rounded hover:bg-brown-700">Login</button>
+            <button type="submit" class="w-full bg-red-600 text-white p-2 rounded hover:bg-red-700">Login</button>
         </form>
+        <div class="mt-4 text-center">
+            <a href="{{ url('/') }}" class="text-red-600 hover:underline">Back to Home</a>
+        </div>
     </div>
+
 </body>
 </html>

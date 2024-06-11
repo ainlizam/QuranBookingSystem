@@ -50,6 +50,9 @@
                             @csrf
                             <button type="submit" class="w-full bg-red-600 text-white p-2 rounded hover:bg-red-700">Logout</button>
                         </form>
+                        <div class="mt-4 text-center">
+                            <a href="{{ url('/') }}" class="text-red-600 hover:underline">Back to Home</a>
+                        </div>
                     </div>
                 </div>
             </div>

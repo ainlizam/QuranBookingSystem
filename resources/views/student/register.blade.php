@@ -54,10 +54,10 @@
                 <label for="age" class="block text-gray-700">Age:</label>
                 <input type="number" id="age" name="age" value="{{ old('age') }}" required class="w-full p-2 border border-gray-300 rounded">
             </div>
-            <button type="submit" class="w-full bg-brown-600 text-white p-2 rounded hover:bg-brown-700">Register</button>
+            <button type="submit" class="w-full bg-red-600 text-white p-2 rounded hover:bg-red-700">Register</button>
         </form>
         <div class="mt-4 text-center">
-            <a href="{{ url('/') }}" class="text-brown-600 hover:underline">Back to Home</a>
+            <a href="{{ url('/') }}" class="text-red-600 hover:underline">Back to Home</a>
         </div>
     </div>
 </body>
