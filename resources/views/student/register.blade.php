@@ -14,7 +14,7 @@
     </style>
 </head>
 <body class="flex items-center justify-center min-h-screen">
-    <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
+    <div class="brown">
         <h1 class="text-2xl font-bold mb-6 text-center text-brown-700">Student Register</h1>
         <form action="{{ route('student.register') }}" method="POST">
             @csrf
@@ -45,7 +45,7 @@
                 <label for="age" class="block text-gray-700">Age:</label>
                 <input type="number" id="age" name="age" required class="w-full p-2 border border-gray-300 rounded">
             </div>
-            <button type="submit" class="w-full bg-brown-600 text-white p-2 rounded hover:bg-brown-700">Register</button>
+            <button type="submit" class="black">Register</button>
         </form>
     </div>
 </body>
