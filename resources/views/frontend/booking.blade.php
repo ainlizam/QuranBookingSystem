@@ -36,50 +36,82 @@ Bootstrap 5 HTML CSS Template
 
     <body class="reservation-page">
 
-            <main>
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container">
-                        <a class="navbar-brand d-flex align-items-center" href="index.html">
-                            <img src="images/coffee-beans.png" class="navbar-brand-image img-fluid" alt="">
-                            i-Iqra'
-                        </a>
+        <main>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand d-flex align-items-center" href="index.html">
+                        <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
+                        i-Iqra'
+                    </a>
 
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ms-lg-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html#section_1">Home</a>
-                                </li>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-lg-auto">
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_1">Home</a>
+                            </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html#section_2">About us</a>
-                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_2">About</a>
+                            </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html#section_3">Our Menu</a>
-                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_3">Classes</a>
+                            </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html#section_4">Testimonials</a>
-                                </li>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_4">Reviews</a>
+                            </li>
 
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html#section_5">Contact</a>
-                                </li>
-                            </ul>
+                            <li class="nav-item">
+                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                            </li>
 
-                            <div class="ms-lg-3">
-                                <a class="btn custom-btn custom-border-btn" href="reservation.html">
-                                    Reservation
-                                    <i class="bi-arrow-up-right ms-2"></i>
-                                </a>
-                            </div>
+                            <li class="nav-item">
+                                @if (Route::has('login'))
+                                    <nav class="nav-item">
+                                        @auth
+                                            <a
+                                                href="{{ url('/dashboard') }}"
+                                                class="nav-link"
+                                            >
+                                                Dashboard
+                                            </a>
+                                        @else
+                                            <a
+                                                href="{{ route('login') }}"
+                                                class="nav-link"
+                                            >
+                                                Log in
+                                            </a>
+
+                                            @if (Route::has('register'))
+                                                <a
+                                                    href="{{ route('register') }}"
+                                                    class="nav-link"
+                                                >
+                                                    Register
+                                                </a>
+                                            @endif
+                                        @endauth
+                                    </nav>
+                                @endif
+
+                            </li>
+                        </ul>
+
+                        <div class="ms-lg-3">
+                            <a class="btn custom-btn custom-border-btn" href="{{ route('frontend.bview') }}">
+                                Book Now
+                                <i class="bi-arrow-up-right ms-2"></i>
+                            </a>
                         </div>
                     </div>
-                </nav>
+                </div>
+            </nav>
 
 
                 <section class="booking-section section-padding">
@@ -132,7 +164,7 @@ Bootstrap 5 HTML CSS Template
                                     <div class="col-lg-5 col-12 p-0">
                                         <div class="booking-form-image-wrap">
 
-                                            <img src="images/barman-with-fruits.jpg" class="booking-form-image img-fluid" alt="">
+                                            <img src="images/siblings-reading-quran.png" class="booking-form-image img-fluid" alt="">
                                         </div>
 
                                     </div>
