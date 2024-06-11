@@ -149,7 +149,7 @@ Bootstrap 5 HTML CSS Template
 
                                                     <!-- Session Information -->
                                                     <div class="col-lg-12 col-12">
-                                                        <h2 class="text-white">Session Information</h2>
+                                                        <h2 class="text-white">Session Info</h2>
                                                         <div class="row">
                                                             <div class="col-lg-12 col-12">
                                                                 <select name="class-type" id="class-type" class="form-control" required>
