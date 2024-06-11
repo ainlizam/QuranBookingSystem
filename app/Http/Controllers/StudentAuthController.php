@@ -24,7 +24,7 @@ class StudentAuthController extends Controller
             'age' => 'required|integer|min:1',
         ]);
 
-        User::create([
+        $user = User::create([
             'name' => $request->name,
             'email' => $request->email,
             'password' => Hash::make($request->password),
@@ -32,7 +32,11 @@ class StudentAuthController extends Controller
             'age' => $request->age,
         ]);
 
-        return redirect()->route('student.login')->with('success', 'Registration successful. Please login.');
+        if ($user) {
+            return redirect()->route('student.login')->with('success', 'Registration successful. Please login.');
+        } else {
+            return back()->with('error', 'Registration failed. Please try again.');
+        }
     }
 
     public function showLoginForm()
@@ -60,3 +64,4 @@ class StudentAuthController extends Controller
         return redirect()->route('student.login');
     }
 }
+
