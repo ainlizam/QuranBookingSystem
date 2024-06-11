@@ -455,7 +455,7 @@ Bootstrap 5 HTML CSS Template
                             <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
                                 <em class="text-white">Reviews by Customers</em>
 
-                                <h2 class="text-white">Testimonials</h2>
+                                <h2 class="text-white">Feedbacks</h2>
                             </div>
 
                             <div class="timeline">
@@ -463,17 +463,16 @@ Bootstrap 5 HTML CSS Template
                                     <div class="timeline-content">
                                         <div class="reviews-block">
                                             <div class="reviews-block-image-wrap d-flex align-items-center">
-                                                <img src="images/reviews/young-woman-with-round-glasses-yellow-sweater.jpg" class="reviews-block-image img-fluid" alt="">
+                                                <img src="images/reviews/cust1.jpg" class="reviews-block-image img-fluid" alt="">
 
                                                 <div class="">
-                                                    <h6 class="text-white mb-0">Sandra</h6>
-                                                    <em class="text-white"> Customers</em>
+                                                    <h6 class="text-white mb-0">Nur Laila Majnun</h6>
+                                                    <em class="text-white"> from Kedah, Malaysia</em>
                                                 </div>
                                             </div>
 
                                             <div class="reviews-block-info">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
+                                                <p>Sangat sesuai untuk semua peringkat umur dan guru-gurunya sangat penyabar! Saya daftarkan nenek saya untuk bersama-sama belajar mengaji dan kami banyak belajar tentang al-Quran.</p>
                                                 <div class="d-flex border-top pt-3 mt-4">
                                                     <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
 
@@ -494,16 +493,16 @@ Bootstrap 5 HTML CSS Template
                                     <div class="timeline-content">
                                         <div class="reviews-block">
                                             <div class="reviews-block-image-wrap d-flex align-items-center">
-                                                <img src="images/reviews/senior-man-white-sweater-eyeglasses.jpg" class="reviews-block-image img-fluid" alt="">
+                                                <img src="images/reviews/cust2.jpeg" class="reviews-block-image img-fluid" alt="">
 
                                                 <div class="">
-                                                    <h6 class="text-white mb-0">Don</h6>
-                                                    <em class="text-white"> Customers</em>
+                                                    <h6 class="text-white mb-0">Ahmad Syauqi</h6>
+                                                    <em class="text-white"> from Kelantan, Malaysia</em>
                                                 </div>
                                             </div>
 
                                             <div class="reviews-block-info">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                <p>I joined as a complete beginner, and now I can read the Quran with confidence. The supportive community and expert guidance made all the difference. Very convenience for the learners as we can set our schedule and learn easily through online platform online.</p>
 
                                                 <div class="d-flex border-top pt-3 mt-4">
                                                     <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
@@ -525,17 +524,16 @@ Bootstrap 5 HTML CSS Template
                                     <div class="timeline-content">
                                         <div class="reviews-block">
                                             <div class="reviews-block-image-wrap d-flex align-items-center">
-                                                <img src="images/reviews/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg" class="reviews-block-image img-fluid" alt="">
+                                                <img src="images/reviews/cust3.jpeg" class="reviews-block-image img-fluid" alt="">
 
                                                 <div class="">
-                                                    <h6 class="text-white mb-0">Olivia</h6>
-                                                    <em class="text-white"> Customers</em>
+                                                    <h6 class="text-white mb-0">Sandra Park</h6>
+                                                    <em class="text-white"> from Sarawak, Malaysia</em>
                                                 </div>
                                             </div>
 
                                             <div class="reviews-block-info">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
+                                                <p>Learning with i-Iqra' has been a transformative experience for me. The instructors are incredibly patient and knowledgeable. I have learned so much in such a short time.</p>
                                                 <div class="d-flex border-top pt-3 mt-4">
                                                     <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
 
