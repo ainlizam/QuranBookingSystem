@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Barista Cafe HTML CSS Template</title>
+        <title>Quran Booking System</title>
 
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,8 +41,8 @@ Bootstrap 5 HTML CSS Template
                 <nav class="navbar navbar-expand-lg">
                     <div class="container">
                         <a class="navbar-brand d-flex align-items-center" href="index.html">
-                            <img src="images/coffee-beans.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
-                            Barista
+                            <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
+                            i-Iqra'
                         </a>
 
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,7 +60,7 @@ Bootstrap 5 HTML CSS Template
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_3">Our Menu</a>
+                                    <a class="nav-link click-scroll" href="#section_3">Classes</a>
                                 </li>
 
                                 <li class="nav-item">
@@ -106,7 +106,7 @@ Bootstrap 5 HTML CSS Template
 
                             <div class="ms-lg-3">
                                 <a class="btn custom-btn custom-border-btn" href="{{ route('frontend.bview') }}">
-                                    Reservation
+                                    Book Now
                                     <i class="bi-arrow-up-right ms-2"></i>
                                 </a>
                             </div>
@@ -121,19 +121,19 @@ Bootstrap 5 HTML CSS Template
                         <div class="row align-items-center">
 
                             <div class="col-lg-6 col-12 mx-auto">
-                                <em class="small-text">welcome to Barista.co</em>
+                                <em class="small-text">Welcome to No 1 Online Quran Learning Centre:</em>
 
-                                <h1>Cafe Klang</h1>
+                                <h1>i-Iqra' Academy</h1>
 
                                 <p class="text-white mb-4 pb-lg-2">
-                                    your <em>favourite</em> coffee daily lives.
+                                    Embrace the Light of the Quran
                                 </p>
 
                                 <a class="btn custom-btn custom-border-btn smoothscroll me-3" href="#section_2">
                                     Our Story
                                 </a>
 
-                                <a class="btn custom-btn smoothscroll me-2 mb-2" href="#section_3"><strong>Check Menu</strong></a>
+                                <a class="btn custom-btn smoothscroll me-2 mb-2" href="#section_3"><strong>See Classes Offered</strong></a>
                             </div>
 
                         </div>
@@ -157,23 +157,25 @@ Bootstrap 5 HTML CSS Template
                                     </video>
 
                                     <div class="about-video-info d-flex flex-column">
-                                        <h4 class="mt-auto">We Started Since 2009.</h4>
+                                        <h4 class="mt-auto">اقرأ، تدبر، أشرق</h4>
 
-                                        <h4>Best Cafe in Klang.</h4>
+                                        <h4>Recite, Reflect, Enlighten</h4>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
-                                <em class="text-white">Barista.co</em>
+                                <em class="text-white">Get to Know Us</em>
 
-                                <h2 class="text-white mb-3">Cafe KL</h2>
+                                <h2 class="text-white mb-3">i-Iqra' Academy</h2>
 
-                                <p class="text-white">The café had been in the town for as long as anyone could remember, and it had become a beloved institution among the locals.</p>
+                                <p class="text-white">Welcome to i-Iqra' Academy, where teaching is our priority. Our mission is to guide learners of all ages on a transformative journey through the divine teachings of the Quran. At i-Iqra' Academy, we believe in more than just reading; we believe in understanding, reflecting, and living the sacred words.</p>
 
-                                <p class="text-white">The café was run by a friendly and hospitable couple, Mr. and Mrs. Johnson. Barista Cafe is free Bootstrap 5 HTML layout provided by <a rel="nofollow" href="https://www.tooplate.com" target="_blank">Tooplate</a>.</p>
+                                <p class="text-white">Whether you are a beginner taking your first steps or an older learner seeking to deepen your knowledge, our expert instructors are here to support you. Our classes are tailored to meet the diverse needs of our students, ensuring a comprehensive and enriching learning experience.</p>
 
-                                <a href="#barista-team" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Meet Baristas</a>
+                                <p class="text-white">Join us and become part of a community dedicated to spiritual growth and enlightenment. Discover the beauty of the Quran, reflect on its teachings, and let its light illuminate your path.</p>
+
+                                <a href="#barista-team" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Meet the Instructors</a>
                             </div>
 
                         </div>
@@ -186,25 +188,25 @@ Bootstrap 5 HTML CSS Template
                         <div class="row justify-content-center">
 
                             <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
-                                <em class="text-white">Creative Baristas</em>
+                                <em class="text-white">Get to Know Our Team</em>
 
-                                <h2 class="text-white">Meet People</h2>
+                                <h2 class="text-white">Meet Our Asatizah</h2>
                             </div>
 
                             <div class="col-lg-3 col-md-6 col-12 mb-4">
                                 <div class="team-block-wrap">
                                     <div class="team-block-info d-flex flex-column">
                                         <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Steve</h4>
+                                            <h4 class="text-white mb-0">Ustaz Sa'id</h4>
 
-                                            <p class="badge ms-4"><em>Boss</em></p>
+                                            <p class="badge ms-4"><em>Founder</em></p>
                                         </div>
 
-                                        <p class="text-white mb-0">your favourite coffee daily lives tempor.</p>
+                                        <p class="text-white mb-0">5 years of experience as Arabic Language teacher.</p>
                                     </div>
 
                                     <div class="team-block-image-wrap">
-                                        <img src="images/team/portrait-elegant-old-man-wearing-suit.jpg" class="team-block-image img-fluid" alt="">
+                                        <img src="images/team/ustzsa'id.png" class="team-block-image img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -213,16 +215,16 @@ Bootstrap 5 HTML CSS Template
                                 <div class="team-block-wrap">
                                     <div class="team-block-info d-flex flex-column">
                                         <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Sandra</h4>
+                                            <h4 class="text-white mb-0">Ustazah Hanum</h4>
 
-                                            <p class="badge ms-4"><em>Manager</em></p>
+                                            <p class="badge ms-4"><em>Tutor</em></p>
                                         </div>
 
-                                        <p class="text-white mb-0">your favourite coffee daily lives.</p>
+                                        <p class="text-white mb-0">Currently as a lecturer at IIUM in Usul Fiqh for 6 years.</p>
                                     </div>
 
                                     <div class="team-block-image-wrap">
-                                        <img src="images/team/cute-korean-barista-girl-pouring-coffee-prepare-filter-batch-brew-pour-working-cafe.jpg" class="team-block-image img-fluid" alt="">
+                                        <img src="images/team/ustzhhanum.png" class="team-block-image img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -231,16 +233,16 @@ Bootstrap 5 HTML CSS Template
                                 <div class="team-block-wrap">
                                     <div class="team-block-info d-flex flex-column">
                                         <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Jackson</h4>
+                                            <h4 class="text-white mb-0">Ustaz Zaid Muhammad</h4>
 
-                                            <p class="badge ms-4"><em>Senior</em></p>
+                                            <p class="badge ms-4"><em>Tutor</em></p>
                                         </div>
 
-                                        <p class="text-white mb-0">your favourite coffee daily lives.</p>
+                                        <p class="text-white mb-0">5 years experience of teaching Islamic Studies and Arabic.</p>
                                     </div>
 
                                     <div class="team-block-image-wrap">
-                                        <img src="images/team/small-business-owner-drinking-coffee.jpg" class="team-block-image img-fluid" alt="">
+                                        <img src="images/team/ustzzaid.png" class="team-block-image img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -249,16 +251,16 @@ Bootstrap 5 HTML CSS Template
                                 <div class="team-block-wrap">
                                     <div class="team-block-info d-flex flex-column">
                                         <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Michelle</h4>
+                                            <h4 class="text-white mb-0">Ustazah Ain Lily</h4>
 
-                                            <p class="badge ms-4"><em>Barista</em></p>
+                                            <p class="badge ms-4"><em>Tutor</em></p>
                                         </div>
 
-                                        <p class="text-white mb-0">your favourite coffee daily consectetur.</p>
+                                        <p class="text-white mb-0">Currently a lecturer at IIUM in Qur'an Sunnah for 4 years.</p>
                                     </div>
 
                                     <div class="team-block-image-wrap">
-                                        <img src="images/team/smiley-business-woman-working-cashier.jpg" class="team-block-image img-fluid" alt="">
+                                        <img src="images/team/ustzhlily.png" class="team-block-image img-fluid" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -453,7 +455,7 @@ Bootstrap 5 HTML CSS Template
                             <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
                                 <em class="text-white">Reviews by Customers</em>
 
-                                <h2 class="text-white">Testimonials</h2>
+                                <h2 class="text-white">Feedbacks</h2>
                             </div>
 
                             <div class="timeline">
@@ -461,17 +463,16 @@ Bootstrap 5 HTML CSS Template
                                     <div class="timeline-content">
                                         <div class="reviews-block">
                                             <div class="reviews-block-image-wrap d-flex align-items-center">
-                                                <img src="images/reviews/young-woman-with-round-glasses-yellow-sweater.jpg" class="reviews-block-image img-fluid" alt="">
+                                                <img src="images/reviews/cust1.jpg" class="reviews-block-image img-fluid" alt="">
 
                                                 <div class="">
-                                                    <h6 class="text-white mb-0">Sandra</h6>
-                                                    <em class="text-white"> Customers</em>
+                                                    <h6 class="text-white mb-0">Nur Laila Majnun</h6>
+                                                    <em class="text-white"> from Kedah, Malaysia</em>
                                                 </div>
                                             </div>
 
                                             <div class="reviews-block-info">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
+                                                <p>Sangat sesuai untuk semua peringkat umur dan guru-gurunya sangat penyabar! Saya daftarkan nenek saya untuk bersama-sama belajar mengaji dan kami banyak belajar tentang al-Quran.</p>
                                                 <div class="d-flex border-top pt-3 mt-4">
                                                     <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
 
@@ -492,16 +493,16 @@ Bootstrap 5 HTML CSS Template
                                     <div class="timeline-content">
                                         <div class="reviews-block">
                                             <div class="reviews-block-image-wrap d-flex align-items-center">
-                                                <img src="images/reviews/senior-man-white-sweater-eyeglasses.jpg" class="reviews-block-image img-fluid" alt="">
+                                                <img src="images/reviews/cust2.jpeg" class="reviews-block-image img-fluid" alt="">
 
                                                 <div class="">
-                                                    <h6 class="text-white mb-0">Don</h6>
-                                                    <em class="text-white"> Customers</em>
+                                                    <h6 class="text-white mb-0">Ahmad Syauqi</h6>
+                                                    <em class="text-white"> from Kelantan, Malaysia</em>
                                                 </div>
                                             </div>
 
                                             <div class="reviews-block-info">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                <p>I joined as a complete beginner, and now I can read the Quran with confidence. The supportive community and expert guidance made all the difference. Very convenience for the learners as we can set our schedule and learn easily through online platform online.</p>
 
                                                 <div class="d-flex border-top pt-3 mt-4">
                                                     <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
@@ -523,17 +524,16 @@ Bootstrap 5 HTML CSS Template
                                     <div class="timeline-content">
                                         <div class="reviews-block">
                                             <div class="reviews-block-image-wrap d-flex align-items-center">
-                                                <img src="images/reviews/young-beautiful-woman-pink-warm-sweater-natural-look-smiling-portrait-isolated-long-hair.jpg" class="reviews-block-image img-fluid" alt="">
+                                                <img src="images/reviews/cust3.jpeg" class="reviews-block-image img-fluid" alt="">
 
                                                 <div class="">
-                                                    <h6 class="text-white mb-0">Olivia</h6>
-                                                    <em class="text-white"> Customers</em>
+                                                    <h6 class="text-white mb-0">Sandra Park</h6>
+                                                    <em class="text-white"> from Sarawak, Malaysia</em>
                                                 </div>
                                             </div>
 
                                             <div class="reviews-block-info">
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
+                                                <p>Learning with i-Iqra' has been a transformative experience for me. The instructors are incredibly patient and knowledgeable. I have learned so much in such a short time.</p>
                                                 <div class="d-flex border-top pt-3 mt-4">
                                                     <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
 
