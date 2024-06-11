@@ -533,7 +533,7 @@ Bootstrap 5 HTML CSS Template
                                             </div>
 
                                             <div class="reviews-block-info">
-                                                <p>Learning with i-Iqra' has been a transformative experience for me. The instructors are incredibly patient and knowledgeable. I have learned so much in such a short time!</p>
+                                                <p>Learning with i-Iqra' has been a transformative experience for me. The instructors are incredibly patient and knowledgeable. I have learned so much in such a short time.</p>
                                                 <div class="d-flex border-top pt-3 mt-4">
                                                     <strong class="text-white">4.5 <small class="ms-2">Rating</small></strong>
 
