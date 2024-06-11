@@ -121,7 +121,7 @@ Bootstrap 5 HTML CSS Template
                         <div class="row align-items-center">
 
                             <div class="col-lg-6 col-12 mx-auto">
-                                <em class="small-text">welcome to i-Iqra' Academy</em>
+                                <em class="small-text">Welcome to No 1 Online Quran Learning Centre:</em>
 
                                 <h1>i-Iqra' Academy</h1>
 
