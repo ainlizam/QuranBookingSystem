@@ -605,7 +605,7 @@ Bootstrap 5 HTML CSS Template
 
                                 <strong class="text-white">
                                     <i class="bi-geo-alt me-2"></i>
-                                    Bandra West, Mumbai, Maharashtra 400050, India
+                                    Cyberjaya, Kuala Lumpur, Malaysia
                                 </strong>
 
                                 <ul class="social-icon mt-4">
@@ -641,7 +641,7 @@ Bootstrap 5 HTML CSS Template
                                     <strong class="me-2">Email:</strong>
 
                                     <a href="mailto:info@yourgmail.com" class="site-footer-link">
-                                        hello@barista.co
+                                        hello@quran.co
                                     </a>
                                 </p>
                             </div>
@@ -675,7 +675,7 @@ Bootstrap 5 HTML CSS Template
                             </div>
 
                             <div class="col-lg-8 col-12 mt-4">
-                                <p class="copyright-text mb-0">Copyright © Barista Cafe 2048
+                                <p class="copyright-text mb-0">Copyright © i-Iqra' 2024
                                     - Design: <a rel="sponsored" href="https://www.tooplate.com" target="_blank">Tooplate</a></p>
                             </div>
                     </div>

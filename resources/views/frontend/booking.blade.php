@@ -196,6 +196,13 @@ Bootstrap 5 HTML CSS Template
                                                     <div class="col-lg-4 col-md-10 col-8 mx-auto mt-2">
                                                         <button type="submit" class="form-control">Submit</button>
                                                     </div>
+
+                                                    @if(session('success'))
+                                                        <div class="alert alert-success">
+                                                            {{ session('success') }}
+                                                        </div>
+                                                    @endif
+
                                                 </div>
                                             </div>
                                         </form>
