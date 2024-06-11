@@ -34,16 +34,14 @@ Bootstrap 5 HTML CSS Template
 -->
    </head>
 
-    <body class="reservation-page">
-
-             <main>
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container">
-                        <a class="navbar-brand d-flex align-items-center" href="index.html">
-                            <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
-                            i-Iqra'
-                        </a>
-
+   <body class="reservation-page">
+    <main>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="{{ route('home') }}">
+                    <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
+                    i-Iqra'
+                </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>

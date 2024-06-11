@@ -8,6 +8,12 @@ use App\Http\Controllers\BookingController;
 Route::get('/', function () {
     return redirect()->route('frontend.home');
 });
+// web.php
+
+Route::get('/', function () {
+    return view('frontend.home');
+})->name('home');
+
 
 // Home route, accessible after login
 Route::get('/home', function () {
