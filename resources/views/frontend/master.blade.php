@@ -7,7 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Barista Cafe HTML CSS Template</title>
+        <title>Quran Booking System</title>
 
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,7 +42,7 @@ Bootstrap 5 HTML CSS Template
                     <div class="container">
                         <a class="navbar-brand d-flex align-items-center" href="index.html">
                             <img src="images/coffee-beans.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
-                            Barista
+                            i-Iqra'
                         </a>
 
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -106,7 +106,7 @@ Bootstrap 5 HTML CSS Template
 
                             <div class="ms-lg-3">
                                 <a class="btn custom-btn custom-border-btn" href="{{ route('frontend.bview') }}">
-                                    Reservation
+                                    Booking Now
                                     <i class="bi-arrow-up-right ms-2"></i>
                                 </a>
                             </div>
@@ -121,12 +121,12 @@ Bootstrap 5 HTML CSS Template
                         <div class="row align-items-center">
 
                             <div class="col-lg-6 col-12 mx-auto">
-                                <em class="small-text">welcome to Barista.co</em>
+                                <em class="small-text">welcome to i-Iqra' Academy</em>
 
-                                <h1>Cafe Klang</h1>
+                                <h1>i-Iqra' Academy</h1>
 
                                 <p class="text-white mb-4 pb-lg-2">
-                                    your <em>favourite</em> coffee daily lives.
+                                    Embrace the Light of the Quran
                                 </p>
 
                                 <a class="btn custom-btn custom-border-btn smoothscroll me-3" href="#section_2">
@@ -157,21 +157,23 @@ Bootstrap 5 HTML CSS Template
                                     </video>
 
                                     <div class="about-video-info d-flex flex-column">
-                                        <h4 class="mt-auto">We Started Since 2009.</h4>
+                                        <h4 class="mt-auto">We Started Since 2024.</h4>
 
-                                        <h4>Best Cafe in Klang.</h4>
+                                        <h4>"اقرأ، تدبر، أشرق"</h4>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
-                                <em class="text-white">Barista.co</em>
+                                <em class="text-white">Get to Know Us</em>
 
-                                <h2 class="text-white mb-3">Cafe KL</h2>
+                                <h2 class="text-white mb-3">i-Iqra' Academy</h2>
 
-                                <p class="text-white">The café had been in the town for as long as anyone could remember, and it had become a beloved institution among the locals.</p>
+                                <p class="text-white">Welcome to Echoes of Quran, where every word resonates with wisdom and enlightenment. Our mission is to guide learners of all ages on a transformative journey through the divine teachings of the Quran. At Echoes of Quran, we believe in more than just reading; we believe in understanding, reflecting, and living the sacred words.</p>
 
-                                <p class="text-white">The café was run by a friendly and hospitable couple, Mr. and Mrs. Johnson. Barista Cafe is free Bootstrap 5 HTML layout provided by <a rel="nofollow" href="https://www.tooplate.com" target="_blank">Tooplate</a>.</p>
+                                <p class="text-white">Whether you are a beginner taking your first steps or an older learner seeking to deepen your knowledge, our expert instructors are here to support you. Our classes are tailored to meet the diverse needs of our students, ensuring a comprehensive and enriching learning experience. Barista Cafe is free Bootstrap 5 HTML layout provided by <a rel="nofollow" href="https://www.tooplate.com" target="_blank">Tooplate</a>.</p>
+
+                                <p class="text-white">Join us and become part of a community dedicated to spiritual growth and enlightenment. Discover the beauty of the Quran, reflect on its teachings, and let its light illuminate your path.</p>
 
                                 <a href="#barista-team" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Meet Baristas</a>
                             </div>
