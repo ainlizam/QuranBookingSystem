@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentAuthController;
+use App\Http\Controllers\BookingController;
 
 // Set the default route to redirect to frontend.home
 Route::get('/', function () {
@@ -30,3 +31,5 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
         return view('dashboard');
     })->name('dashboard');
 });
+//Route bookings input from BookingController
+Route::post('/bookings', [BookingController::class, 'store'])->name('bookings.store');

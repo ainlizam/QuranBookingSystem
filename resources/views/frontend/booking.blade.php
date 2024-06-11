@@ -122,7 +122,8 @@ Bootstrap 5 HTML CSS Template
                             <div class="booking-form-wrap">
                                 <div class="row">
                                     <div class="col-lg-7 col-12 p-0">
-                                        <form class="custom-form booking-form" action="#" method="post" role="form">
+                                        <form class="custom-form booking-form" action="{{ route('bookings.store') }}" method="post" role="form">
+                                            @csrf
                                             <div class="text-center mb-4 pb-lg-2">
                                                 <em class="text-white">Fill out the booking form</em>
 
@@ -140,21 +141,34 @@ Bootstrap 5 HTML CSS Template
                                                     </div>
 
                                                     <div class="col-lg-6 col-12">
-                                                        <input class="form-control" type="time" name="booking-form-time" value="18:30">
+                                                        <select name="session-day" id="session-day" class="form-control" required>
+                                                            <option value="" disabled selected>Day</option>
+                                                            <option value="monday">Monday</option>
+                                                            <option value="tuesday">Tuesday</option>
+                                                            <option value="wednesday">Wednesday</option>
+                                                            <option value="thursday">Thursday</option>
+                                                            <option value="friday">Friday</option>
+                                                        </select>
                                                     </div>
-
                                                     <div class="col-lg-6 col-12">
-                                                        <input type="date" name="booking-form-date" id="booking-form-date" class="form-control" placeholder="Date" required="">
+                                                        <select name="session-time" id="session-time" class="form-control" required>
+                                                            <option value="" disabled selected>Time</option>
+                                                            <option value="9am">9 am</option>
+                                                            <option value="5pm">5 pm</option>
+                                                            <option value="8pm">8 pm</option>
+                                                        </select>
                                                     </div>
 
                                                     <!-- Session Information -->
                                                     <div class="col-lg-12 col-12">
-                                                        <h2 class="text-white">Session Info</h2>
+                                                        <div class="text-center mb-4 pb-lg-2">
+                                                           <h2 class="text-white">Session Info</h2>
+                                                        </div>
                                                         <div class="row">
                                                             <div class="col-lg-12 col-12">
                                                                 <select name="class-type" id="class-type" class="form-control" required>
                                                                     <option value="" disabled selected>Class Type</option>
-                                                                    <option value="iqra''">Iqra'</option>
+                                                                    <option value="iqra">Iqra'</option>
                                                                     <option value="quran">Al-Quran</option>
                                                                 </select>
                                                             </div>
