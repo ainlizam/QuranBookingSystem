@@ -7,8 +7,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Barista Cafe - HTML Reservation Form</title>
-
+        <title>i-Iqra' - Booking Form</title>
         <!-- CSS FILES -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
 
@@ -23,6 +22,7 @@
         <link href="css/vegas.min.css" rel="stylesheet">
 
         <link href="css/tooplate-barista.css" rel="stylesheet">
+
 <!--
 
 Tooplate 2137 Barista
@@ -32,86 +32,86 @@ https://www.tooplate.com/view/2137-barista-cafe
 Bootstrap 5 HTML CSS Template
 
 -->
-    </head>
+   </head>
 
     <body class="reservation-page">
 
-        <main>
-            <nav class="navbar navbar-expand-lg">
-                <div class="container">
-                    <a class="navbar-brand d-flex align-items-center" href="index.html">
-                        <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
-                        i-Iqra'
-                    </a>
+             <main>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container">
+                        <a class="navbar-brand d-flex align-items-center" href="index.html">
+                            <img src="images/logo.png" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
+                            i-Iqra'
+                        </a>
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
 
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-lg-auto">
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_1">Home</a>
-                            </li>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-lg-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="#section_1">Home</a>
+                                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_2">About</a>
-                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="#section_2">About</a>
+                                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_3">Classes</a>
-                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="#section_3">Classes</a>
+                                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_4">Reviews</a>
-                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="#section_4">Reviews</a>
+                                </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_5">Contact</a>
-                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                                </li>
 
-                            <li class="nav-item">
-                                @if (Route::has('login'))
-                                    <nav class="nav-item">
-                                        @auth
-                                            <a
-                                                href="{{ url('/dashboard') }}"
-                                                class="nav-link"
-                                            >
-                                                Dashboard
-                                            </a>
-                                        @else
-                                            <a
-                                                href="{{ route('login') }}"
-                                                class="nav-link"
-                                            >
-                                                Log in
-                                            </a>
-
-                                            @if (Route::has('register'))
+                                <li class="nav-item">
+                                    @if (Route::has('login'))
+                                        <nav class="nav-item">
+                                            @auth
                                                 <a
-                                                    href="{{ route('register') }}"
+                                                    href="{{ url('/dashboard') }}"
                                                     class="nav-link"
                                                 >
-                                                    Register
+                                                    Dashboard
                                                 </a>
-                                            @endif
-                                        @endauth
-                                    </nav>
-                                @endif
+                                            @else
+                                                <a
+                                                    href="{{ route('login') }}"
+                                                    class="nav-link"
+                                                >
+                                                    Log in
+                                                </a>
 
-                            </li>
-                        </ul>
+                                                @if (Route::has('register'))
+                                                    <a
+                                                        href="{{ route('register') }}"
+                                                        class="nav-link"
+                                                    >
+                                                        Register
+                                                    </a>
+                                                @endif
+                                            @endauth
+                                        </nav>
+                                    @endif
 
-                        <div class="ms-lg-3">
-                            <a class="btn custom-btn custom-border-btn" href="{{ route('frontend.bview') }}">
-                                Book Now
-                                <i class="bi-arrow-up-right ms-2"></i>
-                            </a>
+                                </li>
+                            </ul>
+
+                            <div class="ms-lg-3">
+                                <a class="btn custom-btn custom-border-btn" href="{{ route('frontend.bview') }}">
+                                    Book Now
+                                    <i class="bi-arrow-up-right ms-2"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </nav>
+                </nav>
 
 
                 <section class="booking-section section-padding">
@@ -126,7 +126,7 @@ Bootstrap 5 HTML CSS Template
                                             <div class="text-center mb-4 pb-lg-2">
                                                 <em class="text-white">Fill out the booking form</em>
 
-                                                <h2 class="text-white">Book a table</h2>
+                                                <h2 class="text-white">Book a class</h2>
                                             </div>
 
                                             <div class="booking-form-body">
@@ -147,10 +147,38 @@ Bootstrap 5 HTML CSS Template
                                                         <input type="date" name="booking-form-date" id="booking-form-date" class="form-control" placeholder="Date" required="">
                                                     </div>
 
+                                                    <!-- Session Information -->
                                                     <div class="col-lg-12 col-12">
-                                                        <input type="number" name="booking-form-number" id="booking-form-number" class="form-control" placeholder="Number of People" required="">
+                                                        <h2 class="text-white">Session Information</h2>
+                                                        <div class="row">
+                                                            <div class="col-lg-12 col-12">
+                                                                <select name="class-type" id="class-type" class="form-control" required>
+                                                                    <option value="" disabled selected>Class Type</option>
+                                                                    <option value="iqra''">Iqra'</option>
+                                                                    <option value="quran">Al-Quran</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-lg-12 col-12">
+                                                                <select name="session-type" id="session-type" class="form-control" required>
+                                                                    <option value="" disabled selected>Session Platform</option>
+                                                                    <option value="online">Online</option>
+                                                                    <option value="in-person">In-person</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
-                                                        <textarea name="booking-form-message" rows="3" class="form-control" id="booking-form-message" placeholder="Comment (Optional)"></textarea>
+                                                    <div class="col-lg-12 col-12">
+                                                        <div class="col-lg-6 col-12">
+                                                            <select name="study-level" id="study-level" class="form-control" required>
+                                                                <option value="" disabled selected>Level of Study</option>
+                                                                <option value="beginner">Beginner</option>
+                                                                <option value="intermediate">Intermediate</option>
+                                                                <option value="advanced">Advanced</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <textarea name="booking-form-message" rows="3" class="form-control" id="booking-form-message" placeholder="Additional Information (Optional)"></textarea>
                                                     </div>
 
                                                     <div class="col-lg-4 col-md-10 col-8 mx-auto mt-2">
@@ -176,7 +204,91 @@ Bootstrap 5 HTML CSS Template
                 </section>
 
 
+                <footer class="site-footer">
+                    <div class="container">
+                        <div class="row">
 
+                            <div class="col-lg-4 col-12 me-auto">
+                                <em class="text-white d-block mb-4">Where to find us?</em>
+
+                                <strong class="text-white">
+                                    <i class="bi-geo-alt me-2"></i>
+                                    Bandra West, Mumbai, Maharashtra 400050, India
+                                </strong>
+
+                                <ul class="social-icon mt-4">
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-facebook">
+                                        </a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="https://x.com/minthu" target="_new" class="social-icon-link bi-twitter">
+                                        </a>
+                                    </li>
+
+                                    <li class="social-icon-item">
+                                        <a href="#" class="social-icon-link bi-whatsapp">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-3 col-12 mt-4 mb-3 mt-lg-0 mb-lg-0">
+                                <em class="text-white d-block mb-4">Contact</em>
+
+                                <p class="d-flex mb-1">
+                                    <strong class="me-2">Phone:</strong>
+                                    <a href="tel: 305-240-9671" class="site-footer-link">
+                                        (65)
+                                        305 2409 671
+                                    </a>
+                                </p>
+
+                                <p class="d-flex">
+                                    <strong class="me-2">Email:</strong>
+
+                                    <a href="mailto:info@yourgmail.com" class="site-footer-link">
+                                        hello@barista.co
+                                    </a>
+                                </p>
+                            </div>
+
+
+                            <div class="col-lg-5 col-12">
+                                <em class="text-white d-block mb-4">Opening Hours.</em>
+
+                                <ul class="opening-hours-list">
+                                    <li class="d-flex">
+                                        Monday - Friday
+                                        <span class="underline"></span>
+
+                                        <strong>9:00 - 18:00</strong>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        Saturday
+                                        <span class="underline"></span>
+
+                                        <strong>11:00 - 16:30</strong>
+                                    </li>
+
+                                    <li class="d-flex">
+                                        Sunday
+                                        <span class="underline"></span>
+
+                                        <strong>Closed</strong>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col-lg-8 col-12 mt-4">
+                                <p class="copyright-text mb-0">Copyright © Barista Cafe 2048
+                                    - Design: <a rel="sponsored" href="https://www.tooplate.com" target="_blank">Tooplate</a></p>
+                            </div>
+
+                    </div>
+                </footer>
             </main>
 
 
