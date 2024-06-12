@@ -112,101 +112,106 @@ Bootstrap 5 HTML CSS Template
                 </nav>
 
 
-               <section class="booking-section section-padding">
-                <div class="container">
-                    <div class="row">
+                <section class="booking-section section-padding">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-10 col-12 mx-auto">
+                                <div class="booking-form-wrap">
+                                    <div class="row">
+                                        <div class="col-lg-7 col-12 p-0">
+                                            <form class="custom-form booking-form" action="{{ route('bookings.store') }}" method="post" role="form">
+                                                @csrf
+                                                <div class="text-center mb-4 pb-lg-2">
+                                                    <em class="text-white">Fill out the booking form</em>
+                                                    <h2 class="text-white">Book a class</h2>
+                                                </div>
 
-                        <div class="col-lg-10 col-12 mx-auto">
-                            <div class="booking-form-wrap">
-                                <div class="row">
-                                    <div class="col-lg-7 col-12 p-0">
-                                        <form class="custom-form booking-form" action="{{ route('bookings.store') }}"  method="post" role="form">
-                                            @csrf
-                                            <div class="text-center mb-4 pb-lg-2">
-                                                <em class="text-white">Fill out the booking form</em>
-
-                                                <h2 class="text-white">Book a class</h2>
-                                            </div>
-
-                                            <div class="booking-form-body">
-                                                <div class="row">
-                                                    <div class="col-lg-6 col-12">
-                                                        <input type="text" name="booking-form-name" id="booking-form-name" class="form-control" placeholder="Full Name" required>
-                                                    </div>
-
-                                                    <div class="col-lg-6 col-12">
-                                                        <input type="tel" class="form-control" name="booking-form-phone" placeholder="Phone: 0123456789" required="">
-                                                    </div>
-
-                                                    <div class="col-lg-6 col-12">
-                                                        <select name="session-day" id="session-day" class="form-control" required>
-                                                            <option value="" disabled selected>Day</option>
-                                                            <option value="monday">Monday</option>
-                                                            <option value="tuesday">Tuesday</option>
-                                                            <option value="wednesday">Wednesday</option>
-                                                            <option value="thursday">Thursday</option>
-                                                            <option value="friday">Friday</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-lg-6 col-12">
-                                                        <select name="session-time" id="session-time" class="form-control" required>
-                                                            <option value="" disabled selected>Time</option>
-                                                            <option value="9am - 10am">9 am - 10 am</option>
-                                                            <option value="5pm - 6pm">5 pm - 6 pm</option>
-                                                            <option value="8pm - 9pm">8 pm - 9 pm</option>
-                                                        </select>
-                                                    </div> -->
-
-                                                    <!-- Session Information -->
-                                                    <div class="col-lg-12 col-12">
-                                                        <div class="text-center mb-4 pb-lg-2">
-                                                           <h2 class="text-white">Session Info</h2>
-                                                        </div>
-                                                        <div class="row">
-                                                            <div class="col-lg-12 col-12">
-                                                                <select name="class-type" id="class-type" class="form-control" required>
-                                                                    <option value="" disabled selected>Class Type</option>
-                                                                    <option value="iqra">Iqra'</option>
-                                                                    <option value="quran">Al-Quran</option>
-                                                                </select>
-                                                            </div>
-                                                            <div class="col-lg-12 col-12">
-                                                                <select name="session-type" id="session-type" class="form-control" required>
-                                                                    <option value="" disabled selected>Session Platform</option>
-                                                                    <option value="online">Online</option>
-                                                                    <option value="in-person">In-person</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-lg-12 col-12">
+                                                <div class="booking-form-body">
+                                                    <div class="row">
                                                         <div class="col-lg-6 col-12">
-                                                            <select name="study-level" id="study-level" class="form-control" required>
-                                                                <option value="" disabled selected>Level of Study</option>
-                                                                <option value="beginner">Beginner</option>
-                                                                <option value="intermediate">Intermediate</option>
-                                                                <option value="advanced">Advanced</option>
+                                                            <input type="text" name="booking-form-name" id="booking-form-name" class="form-control" placeholder="Full Name" required>
+                                                        </div>
+
+                                                        <div class="col-lg-6 col-12">
+                                                            <input type="tel" class="form-control" name="booking-form-phone" placeholder="Phone: 0123456789" required>
+                                                        </div>
+
+                                                        <div class="col-lg-6 col-12">
+                                                            <select name="session-day" id="session-day" class="form-control" required>
+                                                                <option value="" disabled selected>Day</option>
+                                                                <option value="monday">Monday</option>
+                                                                <option value="tuesday">Tuesday</option>
+                                                                <option value="wednesday">Wednesday</option>
+                                                                <option value="thursday">Thursday</option>
+                                                                <option value="friday">Friday</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-lg-6 col-12">
+                                                            <select name="session-time" id="session-time" class="form-control" required>
+                                                                <option value="" disabled selected>Time</option>
+                                                                <option value="9am - 10am">9 am - 10 am</option>
+                                                                <option value="5pm - 6pm">5 pm - 6 pm</option>
+                                                                <option value="8pm - 9pm">8 pm - 9 pm</option>
                                                             </select>
                                                         </div>
 
-                                                        <textarea name="booking-form-message" rows="3" class="form-control" id="booking-form-message" placeholder="Additional Information (Optional)"></textarea>
-                                                    </div>
-
-                                                    <div class="col-lg-4 col-md-10 col-8 mx-auto mt-2">
-                                                        <button type="submit" class="form-control">Submit</button>
-                                                    </div>
-
-                                                    @if(session('success'))
-                                                        <div class="alert alert-success">
-                                                            {{ session('success') }}
+                                                        <!-- Session Information -->
+                                                        <div class="col-lg-12 col-12">
+                                                            <div class="text-center mb-4 pb-lg-2">
+                                                               <h2 class="text-white">Session Info</h2>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-lg-6 col-12">
+                                                                    <select name="class-type" id="class-type" class="form-control" required>
+                                                                        <option value="" disabled selected>Class Type</option>
+                                                                        <option value="iqra">Iqra'</option>
+                                                                        <option value="quran">Al-Quran</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-lg-6 col-12">
+                                                                    <select name="session-type" id="session-type" class="form-control" required>
+                                                                        <option value="" disabled selected>Session Platform</option>
+                                                                        <option value="online">Online</option>
+                                                                        <option value="in-person">In-person</option>
+                                                                    </select>
+                                                                </div>
+                                                            </div>
                                                         </div>
-                                                    @endif
 
+                                                        <div class="col-lg-12 col-12">
+                                                            <div class="col-lg-6 col-12">
+                                                                <select name="study-level" id="study-level" class="form-control" required>
+                                                                    <option value="" disabled selected>Level of Study</option>
+                                                                    <option value="beginner">Beginner</option>
+                                                                    <option value="intermediate">Intermediate</option>
+                                                                    <option value="advanced">Advanced</option>
+                                                                </select>
+                                                            </div>
+
+                                                            <textarea name="booking-form-message" rows="3" class="form-control" id="booking-form-message" placeholder="Additional Information (Optional)"></textarea>
+                                                        </div>
+
+                                                        <div class="col-lg-4 col-md-10 col-8 mx-auto mt-2">
+                                                            <button type="submit" class="form-control">Submit</button>
+                                                        </div>
+
+                                                        @if(session('success'))
+                                                            <div class="alert alert-success">
+                                                                {{ session('success') }}
+                                                            </div>
+                                                        @endif
+
+                                                    </div>
                                                 </div>
-                                            </div>
-                                        </form>
+                                            </form>
+                                        </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
 
                                     <div class="col-lg-5 col-12 p-0">
                                         <div class="booking-form-image-wrap">
