@@ -141,15 +141,10 @@ Bootstrap 5 HTML CSS Template
 
                             <div class="col-lg-6 col-12">
                                 <div class="ratio ratio-1x1">
-                                    <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                                        <source src="videos/pexels-mike-jones-9046237.mp4" type="video/mp4">
+                                    <img src="{{ asset('images/quran2.jpg') }}" alt="Quran Image" class="custom-image" style="object-fit: cover; width: 100%; height: 100%;">
 
-                                        Your browser does not support the video tag.
-                                    </video>
-
-                                    <div class="about-video-info d-flex flex-column">
+                                    <div class="about-image-info d-flex flex-column">
                                         <h4 class="mt-auto">اقرأ، تدبر، أشرق</h4>
-
                                         <h4>Recite, Reflect, Enlighten</h4>
                                     </div>
                                 </div>
