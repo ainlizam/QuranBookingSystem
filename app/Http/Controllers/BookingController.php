@@ -36,7 +36,7 @@ class BookingController extends Controller
         'booking-form-email' => 'required|string|max:50',
         'booking-form-phone' => 'required|string|max:20',
         'session-day' => 'required|in:monday,tuesday,wednesday,thursday,friday',
-        'session-time' => 'required|in:9am - 10am | Ustaz Muazzam,2pm - 3pm | Ustazah Hanum,5pm - 6pm | Ustaz Zaid Muhammad,8pm - 9pm | Ustazah Ain Lily',
+        'session-time' => 'required|in:9am - 10am with Ustaz Muazzam,2pm - 3pm with Ustazah Hanum,5pm - 6pm with Ustaz Zaid Muhammad,8pm - 9pm with Ustazah Ain Lily',
         'class-type' => 'required|in:iqra,quran',
         'session-type' => 'required|in:online,in-person',
         'study-level' => 'required|in:beginner,intermediate,advanced',

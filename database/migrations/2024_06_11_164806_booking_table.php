@@ -19,7 +19,7 @@ class BookingTable extends Migration
             $table->string('email');
             $table->string('phone');
             $table->enum('session_day', ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']);
-            $table->enum('session_time', ['9am - 10am | Ustaz Muazzam','2pm - 3pm | Ustazah Hanum','5pm - 6pm | Ustaz Zaid Muhammad','8pm - 9pm | Ustazah Ain Lily']);
+            $table->enum('session_time', ['9am - 10am with Ustaz Muazzam','2pm - 3pm with Ustazah Hanum','5pm - 6pm with Ustaz Zaid Muhammad','8pm - 9pm with Ustazah Ain Lily']);
             $table->enum('class_type', ['iqra', 'quran']);
             $table->enum('session_type', ['online', 'in-person']);
             $table->enum('study_level', ['beginner', 'intermediate', 'advanced']);
