@@ -103,10 +103,7 @@ class BookingController extends Controller
     //Drop Class
     public function destroy($id)
     {
-        $booking = Booking::findOrFail($id);
-        $booking->delete();
-
-        return redirect()->route('dashboard')->with('success', 'Class deleted successfully');
+        //
     }
 
 }

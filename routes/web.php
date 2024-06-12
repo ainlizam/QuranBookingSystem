@@ -32,7 +32,8 @@ Route::get('/booking', function () {
 Route::get('/add-class', [BookingController::class, 'showAddClassForm'])->name('frontend.bview');
 
 // routes to drop class
-Route::delete('/classes/{id}', [BookingController::class, 'destroy'])->name('classes.destroy');
+//Route::delete('/classes/{id}', [BookingController::class, 'destroy'])->name('classes.destroy');
+//Route::get('/frontend/bview', [FrontendController::class, 'bview'])->name('frontend.bview');
 
 // Custom student authentication routes
 Route::get('student/register', [StudentAuthController::class, 'showRegistrationForm'])->name('student.register');
