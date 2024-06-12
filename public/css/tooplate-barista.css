@@ -740,6 +740,24 @@ strong {
   border-bottom: 10px solid transparent;
   border-right: 10px solid var(--primary-color);
 }
+.menu-block .d-flex {
+    width: 100%;
+}
+
+.menu-block .underline {
+    border-bottom: 1px solid #fff;
+    flex-grow: 1;
+}
+
+.menu-block .text-right {
+    text-align: right;
+}
+
+.menu-block .text-right strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
 
 
 /*---------------------------------------

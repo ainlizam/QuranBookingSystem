@@ -261,7 +261,7 @@ Bootstrap 5 HTML CSS Template
                 </section>
 
 
-                <section class="menu-section section-padding" id="section_3">
+                <!--<section class="menu-section section-padding" id="section_3">
                     <div class="container">
                         <div class="row">
 
@@ -269,16 +269,16 @@ Bootstrap 5 HTML CSS Template
                                 <div class="menu-block-wrap">
                                     <div class="text-center mb-4 pb-lg-2">
                                         <em class="text-white">Delicious Menu</em>
-                                        <h4 class="text-white">Breakfast</h4>
+                                        <h4 class="text-white">Iqra' Class'</h4>
                                     </div>
 
                                     <div class="menu-block">
                                         <div class="d-flex">
-                                            <h6>Pancakes</h6>
+                                            <h6>Monday</h6>
 
                                             <span class="underline"></span>
 
-                                            <strong class="ms-auto">$12.50</strong>
+                                            <strong class="ms-auto">8 am - </strong>
                                         </div>
 
                                         <div class="border-top mt-2 pt-2">
@@ -436,7 +436,143 @@ Bootstrap 5 HTML CSS Template
 
                         </div>
                     </div>
+                </section> -->
+                <section class="menu-section section-padding" id="section_3">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-6 col-12 mb-4 mb-lg-0">
+                                <div class="menu-block-wrap">
+                                    <div class="text-center mb-4 pb-lg-2">
+                                        <em class="text-white">Class Info</em>
+                                        <h4 class="text-white">Iqra' Class</h4>
+                                    </div>
+
+                                    <div class="menu-block">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h6>Monday</h6>
+                                            <span class="underline flex-grow-1 mx-3"></span>
+                                            <div class="text-right">
+                                                <strong class="d-block">9am - 10am</strong>
+                                                <small>Ustaz Muazzam</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block my-4">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h6>Tuesday</h6>
+                                            <span class="underline flex-grow-1 mx-3"></span>
+                                            <div class="text-right">
+                                                <strong class="d-block">2pm - 3pm</strong>
+                                                <small>Ustazah Hanum</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h6>Wednesday</h6>
+                                            <span class="underline flex-grow-1 mx-3"></span>
+                                            <div class="text-right">
+                                                <strong class="d-block">5pm - 6pm</strong>
+                                                <small>Ustaz Zaid Muhammad</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block my-4">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h6>Thursday</h6>
+                                            <span class="underline flex-grow-1 mx-3"></span>
+                                            <div class="text-right">
+                                                <strong class="d-block">8pm - 9pm</strong>
+                                                <small>Ustazah Ain Lily</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h6>Friday</h6>
+                                            <span class="underline flex-grow-1 mx-3"></span>
+                                            <div class="text-right">
+                                                <strong class="d-block">9am - 10am</strong>
+                                                <small>Ustaz Muazzam</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12">
+                                <div class="menu-block-wrap">
+                                    <div class="text-center mb-4 pb-lg-2">
+                                        <em class="text-white">Class Info</em>
+                                        <h4 class="text-white">Quran Class</h4>
+                                    </div>
+
+                                    <div class="menu-block">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h6>Monday</h6>
+                                            <span class="underline flex-grow-1 mx-3"></span>
+                                            <div class="text-right">
+                                                <strong class="d-block">9am - 10am</strong>
+                                                <small>Ustaz Muazzam</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block my-4">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h6>Tuesday</h6>
+                                            <span class="underline flex-grow-1 mx-3"></span>
+                                            <div class="text-right">
+                                                <strong class="d-block">2pm - 3pm</strong>
+                                                <small>Ustazah Hanum</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h6>Wednesday</h6>
+                                            <span class="underline flex-grow-1 mx-3"></span>
+                                            <div class="text-right">
+                                                <strong class="d-block">5pm - 6pm</strong>
+                                                <small>Ustaz Zaid Muhammad</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block my-4">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h6>Thursday</h6>
+                                            <span class="underline flex-grow-1 mx-3"></span>
+                                            <div class="text-right">
+                                                <strong class="d-block">8pm - 9pm</strong>
+                                                <small>Ustazah Ain Lily</small>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="menu-block">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <h6>Friday</h6>
+                                            <span class="underline flex-grow-1 mx-3"></span>
+                                            <div class="text-right">
+                                                <strong class="d-block">9am - 10am</strong>
+                                                <small>Ustaz Muazzam</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </section>
+
 
 
                 <section class="reviews-section section-padding section-bg" id="section_4">
