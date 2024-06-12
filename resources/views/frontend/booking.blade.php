@@ -135,7 +135,7 @@ Bootstrap 5 HTML CSS Template
                                                     </div>
 
                                                     <div class="col-lg-6 col-12">
-                                                        <input type="tel" class="form-control" name="booking-form-phone" placeholder="Phone: 0123456789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="">
+                                                        <input type="tel" class="form-control" name="booking-form-phone" placeholder="Phone: 0123456789" required="">
                                                     </div>
 
                                                     <div class="col-lg-6 col-12">
