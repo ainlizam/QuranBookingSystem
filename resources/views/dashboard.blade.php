@@ -41,7 +41,7 @@
 
                         <div class="bg-white p-6 rounded-lg shadow-md">
                             <h4 class="text-lg font-medium leading-6 text-gray-900 mb-4">Additional Information</h4>
-                            <p>You can add more information here...</p>
+                            <p>FATIHAH CARRY GROUP 4</p>
                         </div>
                     </div>
 

@@ -239,7 +239,7 @@ Bootstrap 5 HTML CSS Template
 
                                 <strong class="text-white">
                                     <i class="bi-geo-alt me-2"></i>
-                                    Cyberjaya, Kuala Lumpur, Malaysia
+                                    IIUM
                                 </strong>
 
                                 <ul class="social-icon mt-4">
@@ -266,8 +266,8 @@ Bootstrap 5 HTML CSS Template
                                 <p class="d-flex mb-1">
                                     <strong class="me-2">Phone:</strong>
                                     <a href="tel: 305-240-9671" class="site-footer-link">
-                                        (65)
-                                        305 2409 671
+                                        (60)
+                                        18 3120 076
                                     </a>
                                 </p>
 
