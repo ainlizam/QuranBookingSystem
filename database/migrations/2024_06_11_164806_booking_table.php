@@ -16,6 +16,7 @@ class BookingTable extends Migration
         Schema::create('bookings', function (Blueprint $table) {
             $table->id();
             $table->string('full_name');
+            $table->string('email');
             $table->string('phone');
             $table->enum('session_day', ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']);
             $table->enum('session_time', ['9am - 10am', '5pm - 6pm', '8pm - 9pm']);

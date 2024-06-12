@@ -33,6 +33,7 @@ class BookingController extends Controller
     // Validate the incoming request data
     $request->validate([
         'booking-form-name' => 'required|string|max:255',
+        'booking-form-email' => 'required|string|max:50',
         'booking-form-phone' => 'required|string|max:20',
         'session-day' => 'required|in:monday,tuesday,wednesday,thursday,friday',
         'session-time' => 'required|in:9am - 10am,5pm - 6pm,8pm - 9pm',
@@ -45,6 +46,7 @@ class BookingController extends Controller
     // Create a new booking instance and save to the database
     $booking = new Booking();
     $booking->full_name = $request->input('booking-form-name');
+    $booking->email = $request->input('booking-form-email');
     $booking->phone = $request->input('booking-form-phone');
     $booking->session_day = $request->input('session-day');
     $booking->session_time = $request->input('session-time');

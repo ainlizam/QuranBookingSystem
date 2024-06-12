@@ -65,7 +65,7 @@ Bootstrap 5 HTML CSS Template
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_4">Reviews</a>
+                                <a class="nav-link click-scroll" href="#section_4">Feedback</a>
                             </li>
 
                             <li class="nav-item">

@@ -15,6 +15,7 @@ class Booking extends Model
     // Define the fillable properties
     protected $fillable = [
         'full_name',
+        'email',
         'phone',
         'session_day',
         'session_time',

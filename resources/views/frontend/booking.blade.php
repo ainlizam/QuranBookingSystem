@@ -61,7 +61,7 @@ Bootstrap 5 HTML CSS Template
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="/home#section_4">Reviews</a>
+                                    <a class="nav-link click-scroll" href="/home#section_4">Feedback</a>
                                 </li>
 
                                 <li class="nav-item">
@@ -131,7 +131,9 @@ Bootstrap 5 HTML CSS Template
                                                         <div class="col-lg-6 col-12">
                                                             <input type="text" name="booking-form-name" id="booking-form-name" class="form-control" placeholder="Full Name" required>
                                                         </div>
-
+                                                        <div class="col-lg-6 col-12">
+                                                            <input type="email" class="form-control" name="booking-form-email" placeholder="Email" required>
+                                                        </div>
                                                         <div class="col-lg-6 col-12">
                                                             <input type="tel" class="form-control" name="booking-form-phone" placeholder="Phone: 0123456789" required>
                                                         </div>
