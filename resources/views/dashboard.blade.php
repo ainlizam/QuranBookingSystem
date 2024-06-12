@@ -86,6 +86,7 @@
                     </div>
 
                     <div class="mt-6">
+                        <a href="{{ route('frontend.bview') }}" class="w-full bg-green-600 text-white p-2 rounded hover:bg-green-700 text-center inline-block mb-4">Add Class</a>
                         <form action="{{ route('student.logout') }}" method="POST">
                             @csrf
                             <button type="submit" class="w-full bg-red-600 text-white p-2 rounded hover:bg-red-700">Logout</button>

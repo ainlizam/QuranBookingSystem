@@ -4,11 +4,20 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Booking;
 
+// app/Http/Controllers/BookingController.php
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
 class BookingController extends Controller
 {
     /**
      * Display a listing of the resource.
      */
+    public function showAddClassForm()
+    {
+        return view('frontend.bview');
+    }
     public function index()
     {
         //return view('frontend.home'); next page

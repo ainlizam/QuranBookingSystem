@@ -28,6 +28,10 @@ Route::get('/booking', function () {
     return view('frontend.bview');
 })->name('frontend.bview');
 
+// routes add b=class button to booking view
+Route::get('/add-class', [BookingController::class, 'showAddClassForm'])->name('frontend.bview');
+
+
 // Custom student authentication routes
 Route::get('student/register', [StudentAuthController::class, 'showRegistrationForm'])->name('student.register');
 Route::post('student/register', [StudentAuthController::class, 'register']);
