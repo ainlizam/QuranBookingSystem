@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentAuthController;
 use App\Http\Controllers\BookingController;
+use App\Models\Booking;
+use Illuminate\Support\Facades\Auth;
 
 
 // Set the default route to redirect to frontend.home
@@ -36,7 +38,11 @@ Route::post('student/logout', [StudentAuthController::class, 'logout'])->name('s
 // Middleware group for authenticated routes
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::get('/dashboard', function () {
-        return view('dashboard');
+        // Fetch bookings of the authenticated user
+        $bookings = Booking::where('email', Auth::user()->email)->get();
+
+        // Pass the bookings to the dashboard view
+        return view('dashboard', ['bookings' => $bookings]);
     })->name('dashboard');
 });
 

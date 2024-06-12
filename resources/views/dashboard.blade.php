@@ -46,6 +46,46 @@
                     </div>
 
                     <div class="mt-6">
+                        <h4 class="text-lg font-medium leading-6 text-gray-900 mb-4">Booking Information</h4>
+                        @if ($bookings->isEmpty())
+                            <p>No bookings found.</p>
+                        @else
+                            <div class="overflow-x-auto">
+                                <table class="min-w-full bg-white">
+                                    <thead class="bg-gray-800 text-white">
+                                        <tr>
+                                            <th class="w-1/4 py-2">Full Name</th>
+                                            <th class="w-1/4 py-2">Email</th>
+                                            <th class="w-1/4 py-2">Phone</th>
+                                            <th class="w-1/4 py-2">Session Day</th>
+                                            <th class="w-1/4 py-2">Session Time</th>
+                                            <th class="w-1/4 py-2">Class Type</th>
+                                            <th class="w-1/4 py-2">Session Type</th>
+                                            <th class="w-1/4 py-2">Study Level</th>
+                                            <th class="w-1/4 py-2">Additional Info</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach ($bookings as $booking)
+                                            <tr class="bg-gray-100">
+                                                <td class="border px-4 py-2">{{ $booking->full_name }}</td>
+                                                <td class="border px-4 py-2">{{ $booking->email }}</td>
+                                                <td class="border px-4 py-2">{{ $booking->phone }}</td>
+                                                <td class="border px-4 py-2">{{ $booking->session_day }}</td>
+                                                <td class="border px-4 py-2">{{ $booking->session_time }}</td>
+                                                <td class="border px-4 py-2">{{ $booking->class_type }}</td>
+                                                <td class="border px-4 py-2">{{ $booking->session_type }}</td>
+                                                <td class="border px-4 py-2">{{ $booking->study_level }}</td>
+                                                <td class="border px-4 py-2">{{ $booking->additional_info }}</td>
+                                            </tr>
+                                        @endforeach
+                                    </tbody>
+                                </table>
+                            </div>
+                        @endif
+                    </div>
+
+                    <div class="mt-6">
                         <form action="{{ route('student.logout') }}" method="POST">
                             @csrf
                             <button type="submit" class="w-full bg-red-600 text-white p-2 rounded hover:bg-red-700">Logout</button>
