@@ -81,7 +81,7 @@
                                                     <form action="{{ route('classes.destroy', $booking->id) }}" method="POST">
                                                         @csrf
                                                         @method('DELETE')
-                                                        <button type="submit" class="bg-red-600 text-white p-2 rounded hover:bg-red-700">Delete</button>
+                                                        <button type="submit" class="bg-red-600 text-white p-2 rounded hover:bg-red-700">Drop</button>
                                                     </form>
                                                 </td>
                                             </tr>
