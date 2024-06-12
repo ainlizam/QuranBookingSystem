@@ -28,8 +28,11 @@ Route::get('/booking', function () {
     return view('frontend.bview');
 })->name('frontend.bview');
 
-// routes add b=class button to booking view
+// routes add class button to booking view
 Route::get('/add-class', [BookingController::class, 'showAddClassForm'])->name('frontend.bview');
+// routes to drop class
+Route::delete('/classes/{id}', [BookingController::class, 'destroy'])->name('classes.destroy');
+Route::get('/frontend/bview', [FrontendController::class, 'bview'])->name('frontend.bview');
 
 
 // Custom student authentication routes

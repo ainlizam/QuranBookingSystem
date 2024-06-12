@@ -14,10 +14,12 @@ class BookingController extends Controller
     /**
      * Display a listing of the resource.
      */
+    // To add class function
     public function showAddClassForm()
     {
         return view('frontend.bview');
     }
+
     public function index()
     {
         //return view('frontend.home'); next page
@@ -98,8 +100,13 @@ class BookingController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    //Drop Class
+    public function destroy($id)
     {
-        //
+        $booking = Booking::findOrFail($id);
+        $booking->delete();
+
+        return redirect()->route('dashboard')->with('success', 'Class deleted successfully');
     }
+
 }
