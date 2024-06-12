@@ -780,7 +780,8 @@ strong {
 }
 
 .reviews-block-image-wrap {
-  background-image: url('../images/man-reading-the-holy-quran-from-top-view-video.png');
+  background-image: url('../images/quran-bg2.jpg');
+  /*background-image: url('../images/man-reading-the-holy-quran-from-top-view-video.png');*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -863,7 +864,7 @@ strong {
   CONTACT
 -----------------------------------------*/
 .contact-section {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(188, 108, 37, 1)), url('../images/quranbackground.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.45), rgba(188, 108, 37, 1)), url('../images/quran-bg1.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
