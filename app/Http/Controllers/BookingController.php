@@ -36,12 +36,14 @@ class BookingController extends Controller
         'booking-form-email' => 'required|string|max:50',
         'booking-form-phone' => 'required|string|max:20',
         'session-day' => 'required|in:monday,tuesday,wednesday,thursday,friday',
-        'session-time' => 'required|in:9am - 10am,5pm - 6pm,8pm - 9pm',
+        'session-time' => 'required|in:9am - 10am | Ustaz Muazzam,2pm - 3pm | Ustazah Hanum,5pm - 6pm | Ustaz Zaid Muhammad,8pm - 9pm | Ustazah Ain Lily',
         'class-type' => 'required|in:iqra,quran',
         'session-type' => 'required|in:online,in-person',
         'study-level' => 'required|in:beginner,intermediate,advanced',
         'booking-form-message' => 'nullable|string|max:1000',
     ]);
+
+
 
     // Create a new booking instance and save to the database
     $booking = new Booking();

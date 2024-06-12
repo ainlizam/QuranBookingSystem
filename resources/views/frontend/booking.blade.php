@@ -150,10 +150,11 @@ Bootstrap 5 HTML CSS Template
                                                         </div>
                                                         <div class="col-lg-6 col-12">
                                                             <select name="session-time" id="session-time" class="form-control" required>
-                                                                <option value="" disabled selected>Time</option>
-                                                                <option value="9am - 10am">9 am - 10 am</option>
-                                                                <option value="5pm - 6pm">5 pm - 6 pm</option>
-                                                                <option value="8pm - 9pm">8 pm - 9 pm</option>
+                                                                <option value="" disabled selected>Time / Tutor</option>
+                                                                <option value="9am - 10am | Ustaz Muazzam">9 am - 10 am | Ustaz Muazzam</option>
+                                                                <option value="2pm - 3pm | Ustazah Hanum">2 pm - 3 pm | Ustazah Hanum</option>
+                                                                <option value="5pm - 6pm | Ustaz Zaid Muhammad">5 pm - 6 pm | Ustaz Zaid Muhammad</option>
+                                                                <option value="8pm - 9pm | Ustazah Ain Lily">8 pm - 9 pm | Ustazah Ain Lily</option>
                                                             </select>
                                                         </div>
 
