@@ -78,13 +78,6 @@
                                                 <td class="border px-4 py-2">{{ $booking->session_type }}</td>
                                                 <td class="border px-4 py-2">{{ $booking->study_level }}</td>
                                                 <td class="border px-4 py-2">{{ $booking->additional_info }}</td>
-                                                <td class="border px-4 py-2">
-                                                    <form action="{{ route('classes.destroy', $booking->id) }}" method="POST">
-                                                        @csrf
-                                                        @method('DELETE')
-                                                        <button type="submit" class="bg-red-600 text-white p-2 rounded hover:bg-red-700">Drop</button>
-                                                    </form>
-                                                </td>
                                             </tr>
                                         @endforeach
                                     </tbody>
