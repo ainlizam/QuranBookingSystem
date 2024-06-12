@@ -49,23 +49,23 @@ Bootstrap 5 HTML CSS Template
                         <div class="collapse navbar-collapse" id="navbarNav">
                             <ul class="navbar-nav ms-lg-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_1">Home</a>
+                                    <a class="nav-link click-scroll" href="/home">Home</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_2">About</a>
+                                    <a class="nav-link click-scroll" href="/home">About</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_3">Classes</a>
+                                    <a class="nav-link click-scroll" href="/home">Classes</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_4">Reviews</a>
+                                    <a class="nav-link click-scroll" href="/home">Reviews</a>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link click-scroll" href="#section_5">Contact</a>
+                                    <a class="nav-link click-scroll" href="/home">Contact</a>
                                 </li>
 
                                 <li class="nav-item">
