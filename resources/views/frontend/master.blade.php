@@ -183,7 +183,7 @@ Bootstrap 5 HTML CSS Template
                                 <div class="team-block-wrap">
                                     <div class="team-block-info d-flex flex-column">
                                         <div class="d-flex mt-auto mb-3">
-                                            <h4 class="text-white mb-0">Ustaz Sa'id</h4>
+                                            <h4 class="text-white mb-0">Ustaz Muazzam</h4>
 
                                             <p class="badge ms-4"><em>Founder</em></p>
                                         </div>
