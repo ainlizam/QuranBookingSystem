@@ -11,7 +11,7 @@ class BookingTable extends Migration
      *
      * @return void
      */
-    public function up()
+    public function up():void
     {
         Schema::create('bookings', function (Blueprint $table) {
             $table->id();
@@ -36,5 +36,4 @@ class BookingTable extends Migration
     {
         Schema::dropIfExists('bookings');
     }
-}
-
+};

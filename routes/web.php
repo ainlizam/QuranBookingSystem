@@ -14,7 +14,6 @@ Route::get('/', function () {
     return view('frontend.home');
 })->name('home');
 
-
 // Home route, accessible after login
 Route::get('/home', function () {
     return view('frontend.home');
@@ -38,4 +37,6 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     })->name('dashboard');
 });
 //Route bookings input from BookingController
-Route::post('/bookings', [BookingController::class, 'store'])->name('bookings.store');
+//Route::post('/bookings', [BookingController::class, 'store'])->name('bookings.store');
+Route::get('/bookings', [BookingController::class,'index']);
+Route::resource('bookings.store', BookingController::class);

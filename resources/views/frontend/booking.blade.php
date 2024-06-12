@@ -120,7 +120,7 @@ Bootstrap 5 HTML CSS Template
                             <div class="booking-form-wrap">
                                 <div class="row">
                                     <div class="col-lg-7 col-12 p-0">
-                                        <form class="custom-form booking-form" action="{{ route('bookings.store') }}" method="post" role="form">
+                                        <form class="custom-form booking-form" action="bookings.store" method="post" role="form">
                                             @csrf
                                             <div class="text-center mb-4 pb-lg-2">
                                                 <em class="text-white">Fill out the booking form</em>
@@ -135,7 +135,7 @@ Bootstrap 5 HTML CSS Template
                                                     </div>
 
                                                     <div class="col-lg-6 col-12">
-                                                        <input type="tel" class="form-control" name="booking-form-phone" placeholder="Phone: 085 456 7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="">
+                                                        <input type="tel" class="form-control" name="booking-form-phone" placeholder="Phone: 0123456789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="">
                                                     </div>
 
                                                     <div class="col-lg-6 col-12">
