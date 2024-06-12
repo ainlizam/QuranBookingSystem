@@ -63,6 +63,7 @@
                                             <th class="w-1/4 py-2">Session Type</th>
                                             <th class="w-1/4 py-2">Study Level</th>
                                             <th class="w-1/4 py-2">Additional Info</th>
+                                            <th class="w-1/4 py-2">Operations</th>
                                         </tr>
                                     </thead>
                                     <tbody>
