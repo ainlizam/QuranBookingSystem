@@ -18,7 +18,7 @@ class BookingTable extends Migration
             $table->string('full_name');
             $table->string('phone');
             $table->enum('session_day', ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']);
-            $table->enum('session_time', ['9am', '5pm', '8pm']);
+            $table->enum('session_time', ['9am - 10am', '5pm - 6pm', '8pm - 9pm']);
             $table->enum('class_type', ['iqra', 'quran']);
             $table->enum('session_type', ['online', 'in-person']);
             $table->enum('study_level', ['beginner', 'intermediate', 'advanced']);

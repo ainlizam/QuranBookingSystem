@@ -112,7 +112,7 @@ Bootstrap 5 HTML CSS Template
                 </nav>
 
 
-                <section class="booking-section section-padding">
+               <section class="booking-section section-padding">
                 <div class="container">
                     <div class="row">
 
@@ -120,7 +120,7 @@ Bootstrap 5 HTML CSS Template
                             <div class="booking-form-wrap">
                                 <div class="row">
                                     <div class="col-lg-7 col-12 p-0">
-                                        <form class="custom-form booking-form" action="bookings.store" method="post" role="form">
+                                        <form class="custom-form booking-form" action="{{ route('bookings.store') }}"  method="post" role="form">
                                             @csrf
                                             <div class="text-center mb-4 pb-lg-2">
                                                 <em class="text-white">Fill out the booking form</em>
@@ -151,11 +151,11 @@ Bootstrap 5 HTML CSS Template
                                                     <div class="col-lg-6 col-12">
                                                         <select name="session-time" id="session-time" class="form-control" required>
                                                             <option value="" disabled selected>Time</option>
-                                                            <option value="9am">9 am</option>
-                                                            <option value="5pm">5 pm</option>
-                                                            <option value="8pm">8 pm</option>
+                                                            <option value="9am - 10am">9 am - 10 am</option>
+                                                            <option value="5pm - 6pm">5 pm - 6 pm</option>
+                                                            <option value="8pm - 9pm">8 pm - 9 pm</option>
                                                         </select>
-                                                    </div>
+                                                    </div> -->
 
                                                     <!-- Session Information -->
                                                     <div class="col-lg-12 col-12">
@@ -222,7 +222,6 @@ Bootstrap 5 HTML CSS Template
                     </div>
                 </section>
 
-
                 <footer class="site-footer">
                     <div class="container">
                         <div class="row">
@@ -232,7 +231,7 @@ Bootstrap 5 HTML CSS Template
 
                                 <strong class="text-white">
                                     <i class="bi-geo-alt me-2"></i>
-                                    Bandra West, Mumbai, Maharashtra 400050, India
+                                    Cyberjaya, Kuala Lumpur, Malaysia
                                 </strong>
 
                                 <ul class="social-icon mt-4">
@@ -268,7 +267,7 @@ Bootstrap 5 HTML CSS Template
                                     <strong class="me-2">Email:</strong>
 
                                     <a href="mailto:info@yourgmail.com" class="site-footer-link">
-                                        hello@barista.co
+                                        hello@quran.co
                                     </a>
                                 </p>
                             </div>
@@ -302,7 +301,7 @@ Bootstrap 5 HTML CSS Template
                             </div>
 
                             <div class="col-lg-8 col-12 mt-4">
-                                <p class="copyright-text mb-0">Copyright © Barista Cafe 2048
+                                <p class="copyright-text mb-0">Copyright © i-Iqra' 2024
                                     - Design: <a rel="sponsored" href="https://www.tooplate.com" target="_blank">Tooplate</a></p>
                             </div>
 

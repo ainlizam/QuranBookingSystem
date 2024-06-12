@@ -12,6 +12,9 @@ class BookingController extends Controller
     public function index()
     {
         //return view('frontend.home'); next page
+        //return view('booking');
+        $bookings = Booking::orderBy('class_type','asc')->get();
+        return view ('booking',['bookings'=>$bookings]);
     }
 
     /**
@@ -29,14 +32,14 @@ class BookingController extends Controller
     {
         // Validate the incoming request data
         $request->validate([
-            'full_name' => 'required|string|max:255',
-            'phone' => 'required|string|regex:/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/',
-            'session_day' => 'required|in:monday,tuesday,wednesday,thursday,friday',
-            'session_time' => 'required|in:9am,5pm,8pm',
-            'class_type' => 'required|in:iqra,quran',
-            'session_type' => 'required|in:online,in-person',
-            'study_level' => 'required|in:beginner,intermediate,advanced',
-            'additional_info' => 'nullable|string',
+            'booking-form-name' => 'required|string|max:255',
+            'booking-form-phone' => 'required|string|max:20',
+            'session-day' => 'required|in:monday,tuesday,wednesday,thursday,friday',
+            'session-time' => 'required|in:9am - 10am,5pm - 6pm,8pm - 9pm',
+            'class-type' => 'required|in:iqra,quran',
+            'session-type' => 'required|in:online,in-person',
+            'study-level' => 'required|in:beginner,intermediate,advanced',
+            'booking-form-message' => 'nullable|string|max:1000',
         ]);
 
         // Create a new booking instance and save to the database
@@ -52,7 +55,9 @@ class BookingController extends Controller
         $booking->save();
 
         // Redirect or return a response
-        return redirect()->back()->with('success', 'Booking successfully created!');
+        //return redirect('booking');
+        return redirect()->route('frontend.bview')->with('success', 'Booking successfully created.');
+        //return redirect()->back()->with('success', 'Booking successfully created!');
 
     }
 

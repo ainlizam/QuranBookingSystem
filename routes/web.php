@@ -4,12 +4,15 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StudentAuthController;
 use App\Http\Controllers\BookingController;
 
+
 // Set the default route to redirect to frontend.home
 Route::get('/', function () {
     return redirect()->route('frontend.home');
 });
-// web.php
+//Route bookings input from BookingController
+Route::post('/bookings', [BookingController::class, 'store'])->name('bookings.store');
 
+// web.php
 Route::get('/', function () {
     return view('frontend.home');
 })->name('home');
@@ -36,7 +39,7 @@ Route::middleware(['auth:sanctum', 'verified'])->group(function () {
         return view('dashboard');
     })->name('dashboard');
 });
-//Route bookings input from BookingController
-//Route::post('/bookings', [BookingController::class, 'store'])->name('bookings.store');
-Route::get('/bookings', [BookingController::class,'index']);
-Route::resource('bookings.store', BookingController::class);
+
+
+//Route::get('/bookings', [BookingController::class,'index']);
+//Route::resource('bookings.store', BookingController::class);

@@ -160,11 +160,11 @@ Bootstrap 5 HTML CSS Template
 
                                 <h2 class="text-white mb-3">i-Iqra' Academy</h2>
 
-                                <p class="text-white">Welcome to i-Iqra' Academy, where teaching is our priority. Our mission is to guide learners of all ages on a transformative journey through the divine teachings of the Quran. At i-Iqra' Academy, we believe in more than just reading; we believe in understanding, reflecting, and living the sacred words.</p>
+                                <p class="text-white">i-Iqra' Academy is a teaching institution that guides learners of all ages on a transformative journey through the Quran's divine teachings.</p>
 
-                                <p class="text-white">Whether you are a beginner taking your first steps or an older learner seeking to deepen your knowledge, our expert instructors are here to support you. Our classes are tailored to meet the diverse needs of our students, ensuring a comprehensive and enriching learning experience.</p>
+                                <p class="text-white">With expert instructors, the academy caters to both beginners and older learners, offering comprehensive and enriching learning experiences. </p>
 
-                                <p class="text-white">Join us and become part of a community dedicated to spiritual growth and enlightenment. Discover the beauty of the Quran, reflect on its teachings, and let its light illuminate your path.</p>
+                                <p class="text-white"> Join a community dedicated to spiritual growth and enlightenment.</p>
 
                                 <a href="#barista-team" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Meet the Instructors</a>
                             </div>
