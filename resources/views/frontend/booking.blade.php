@@ -134,8 +134,8 @@ Bootstrap 5 HTML CSS Template
                                                         <div class="col-lg-6 col-12">
                                                             <input type="email" class="form-control" name="booking-form-email" placeholder="Email" required>
                                                         </div>
-                                                        <div class="col-lg-6 col-12">
-                                                            <input type="tel" class="form-control" name="booking-form-phone" placeholder="Phone: 0123456789" required>
+                                                        <div class="col-lg-12 col-12">
+                                                            <input type="tel" class="form-control" name="booking-form-phone" placeholder="Phone" required>
                                                         </div>
 
                                                         <div class="col-lg-6 col-12">
@@ -181,7 +181,7 @@ Bootstrap 5 HTML CSS Template
                                                         </div>
 
                                                         <div class="col-lg-12 col-12">
-                                                            <div class="col-lg-6 col-12">
+                                                            <div class="col-lg-12 col-12">
                                                                 <select name="study-level" id="study-level" class="form-control" required>
                                                                     <option value="" disabled selected>Level of Study</option>
                                                                     <option value="beginner">Beginner</option>
